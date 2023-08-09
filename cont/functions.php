@@ -7,7 +7,6 @@ function sanitize($method){
     else {
         return false ;   
     } 
-
 }
 //------------- to check if we write in inputs and remove white spaces ------------ 
 function check_written($value){
