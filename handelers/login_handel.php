@@ -29,8 +29,7 @@ else{
     $_SESSION['error_for_password'] = $error_for_password ; 
     redirect('../login_page.php') ;
 
-
-  
+    
     if (empty($error_for_email) && empty($error_for_password)) {
         foreach ($users as $index) {
                 if ($email != $index['email'] or sha1($password) != $index['password']  ) {

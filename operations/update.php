@@ -84,15 +84,13 @@ session_start() ;
       <input type="email" id="email" name="email" value="<?php echo $email?>" required>
       
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password" value="<?php echo $password ?>" required>
+      <input type="password" id="password" name="password" required>
       
       <label for="gender">Gender:</label>
       <select id="gender" name="gender"  required>
         <option value="male">Male</option>
         <option value="female">Female</option>
       </select>
-      
-      
       <button type="submit" style ="margin-left : 150px ;">Update</button>
     </form>
   </div>

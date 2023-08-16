@@ -1,5 +1,5 @@
 <?php session_start() ;
-$id = $_SESSION['my_id'] ;
+$id = $_SESSION['my_own_id'] ;
 ?>
 <!DOCTYPE html>
 <html>
